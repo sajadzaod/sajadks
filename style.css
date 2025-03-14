@@ -1,0 +1,320 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    height: 3000px;
+}
+body{
+    background: black;
+}
+#h2{
+background: black;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 0;
+padding-left: 2%;
+padding-right: 2%;
+padding-top: 3%;
+border: solid 1px #FFF;
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+div h2{
+    color:white;
+    position: absolute;
+    top: 0;
+}
+div h1{
+    color: white;
+}
+#Home{
+    position: absolute;
+    left: 35%;
+}
+#About{
+    position: absolute;
+    left: 41%;
+}
+#Tech{
+    position: absolute;
+    left: 47%;
+}
+#Learn{
+    position: absolute;
+    left: 57%;
+}
+#home1{
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    animation: typing 5s steps(30, end), blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0%; }
+    to { width: 80%; }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50%{}
+}
+#home1{
+    position: absolute;
+    left: 21%;
+    top: 50%;
+    color: #FFF;
+}
+.progress-container {
+    position: absolute;
+    left: 12%;
+    top: 110%;
+    width: 80%;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 70%; 
+    height: 30px;
+    background-color: orangered;
+    text-align: left;
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+}
+.CSS {
+    position: absolute;
+    left: 12%;
+    top: 120%;
+    width: 80%;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.CSS-bar {
+    width: 40%; 
+    height: 30px;
+    background-color: #0abde3;
+    text-align: left;
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+}
+.SASS {
+    position: absolute;
+    left: 12%;
+    top: 130%;
+    width: 80%;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.SASS-bar {
+    width: 1%; 
+    height: 30px;
+    background-color: #d81687;
+    text-align: left;
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+}
+.JS{
+    position: absolute;
+    left: 12%;
+    top: 140%;
+    width: 80%;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.JS-bar{
+    width: 1%;
+    height: 30px;
+    background-color: #FFC312;
+    text-align: left;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 20px;
+}
+.NODE{
+    position: absolute;
+    left: 12%;
+    top: 150%;
+    width: 80%;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.NODE-bar{
+    width: 1%;
+    height: 30px;
+    background-color: #009432;
+    text-align: left;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 20px;
+}
+.boot{
+    position: absolute;
+    left: 12%;
+    top: 160%;
+    width: 80%;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.boot-bar{
+    width: 1%;
+    height: 30px;
+    background-color: #B53471;
+    text-align: left;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 20px;
+}
+.py{
+    position: absolute;
+    left: 12%;
+    top: 170%;
+    width: 80%;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.py-bar{
+    width: 1%;
+    height: 30px;
+    background: linear-gradient(to left,#0652DD 10%,#FFC312);
+    text-align: left ;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 20px;
+}
+#py{
+    position: absolute;
+    left: 89.5%;
+    top: 169.5%;
+}
+#njs{
+    position: absolute;
+    left: 89.5%;
+    top: 149.5%;
+}
+#bt{
+    position: absolute;
+    left: 89.5%;
+    top: 159.5%;
+}
+#js{
+    position: absolute;
+    left: 89.5%;
+    top: 139.5%;
+}
+#sa{
+    position: absolute;
+    left: 89.5%;
+    top: 129.5%;
+}
+#css{
+    position: absolute;
+    left: 89.5%;
+    top: 119.5%;
+}
+#HT{
+    position: absolute;
+    left: 89.5%;
+    top: 109.5%;
+}
+.image-container {
+    position: absolute;
+    left: 50%;
+    top: 230%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.7);
+    transition: all 0.3s ease-in-out;
+}
+.image-container img{
+    width: 60px;
+    height: 60px;
+}
+.image-container:hover{
+    box-shadow: 0px 0px 25px rgba(0, 255, 255, 1);
+    transform: scale(1.1);
+}
+#git {
+    position: absolute;
+    left: 40%;
+    top: 230%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.7);
+    transition: all 0.3s ease-in-out;
+}
+#git img {
+    width: 60px;
+    height: 60px;
+}
+#git:hover {
+    box-shadow: 0px 0px 25px rgba(0, 255, 255, 1);
+    transform: scale(1.1);
+}
+#qqq{
+color: #FFF;
+}
+#h{
+    position: absolute;
+    left: 13%;
+    top: 104%;
+    font-weight:400;
+}
+#c{
+    position: absolute;
+    left: 13%;
+    top: 114%;
+    font-weight:400;
+}
+#s{
+    position: absolute;
+    left: 13%;
+    top: 124%;
+    font-weight:400;
+}
+#j{
+    position: absolute ;
+    left: 13%;
+    top: 134%;
+    font-weight:400;
+}
+#n{
+    position: absolute;
+    left: 13%;
+    top: 144%;
+    font-weight:400;
+}
+#b{
+    position: absolute;
+    left: 13%;
+    top: 154%;
+    font-weight:400;
+}
+#p{
+    position: absolute;
+    left: 13%;
+    top: 164%;
+    font-weight:400;
+}
